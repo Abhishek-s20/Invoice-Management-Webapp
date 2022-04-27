@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo 2', cursive;
+
+    
+}
+:root{
+    --primary-color: #283a46;
+    --secondary-color: #2A3e4c;
+}
+ 
+body{
+    background-color: #8dacc0;
+    overflow: hidden;
+}
+
+.header{
+    padding: 5px;
+    display: flex;
+    background-color: #2e4351;
+    flex-wrap: wrap
+}
+
+.abclogo
+{
+    width: 20%;
+    position: relative;
+    top: 0%;
+    left: 1.4rem;
+    padding: 10px;
+    margin-top: 5px;
+    /* width: 2rem; */
+    /* height: 2rem; */
+}
+
+.hrclogo
+{   
+    position:relative;
+    top: 0%;
+    left: 22rem;
+    text-align: center;
+    width: 15%;
+    padding: 10px;
+    margin-top: 5px;
+
+
+}
+.container
+{
+    /* margin-top: 2.23rem;
+    margin-left: 3rem; */
+    display: block;
+    background-color: #2e4351;
+    
+}
+.Invoice
+{
+    /* color: white;
+    position: relative;
+    top: -33px;
+    right: -32px;
+ */
+ color: white;
+ position: relative;
+ bottom: 0px;
+ left: 36px;    
+}
+
+
+.buttnSectn
+{
+    /*
+    position: relative;
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: wrap; */
+    /* background-color: #283a45;
+    padding: 20px;
+    justify-content: center;  */
+    position: relative;
+    display: flex;
+    background-color: #283a45;
+    padding: 20px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.App
+{
+    background-color:#2e4351;height: 100vh;
+}
+
+.addBttn button:hover
+{
+    background-color: #14aff1;
+}
+.rightSide
+{
+    position: relative;
+    display: flex;
+    background-color: #283a45;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.leftSide
+{
+    position: relative;
+    display: flex;
+    background-color: #283a45;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.cnter{
+    display: flex;
+    flex-wrap: wrap;
+}
